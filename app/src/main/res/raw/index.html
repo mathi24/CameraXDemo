@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function onResponse() {
+                document.getElementById("vinText").focus();
+                console.log('vin text is focused.');
+            }
+        </script>
+        <style type="text/css">
+            input {
+                margin-top: 10px;
+            }
+            button {
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <input id="someText" type="text" /><br/>
+        <input id="vinText" type="text" /><br/>
+        <button onclick="android.openCameraX()">Camera X</button>
+        <button onclick="android.openCamera()">Camera</button>
+    </body>
+</html>
